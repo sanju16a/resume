@@ -1,0 +1,118 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Staatliches', cursive; */
+
+body{
+    margin: 0;
+}
+
+h2{
+    padding-top: 75px;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;  
+    line-height: 1.5rem;
+}
+
+/* First Page */
+
+
+#first-page {
+    background-color:#dddddd;
+}
+
+.profile-photo{
+    width:600px ;
+}
+
+.frame{
+    position: relative;
+    top: 70px;
+    left: 150px;
+    width: 600px;
+    height: 600px;
+    border: 10px solid #000;    
+}
+
+.intro-sent{
+    position: absolute;
+    left: 850px;
+    top: 300px;
+    font-size: 5rem;
+    font-family: 'Staatliches', cursive;
+    font-weight: lighter;
+
+}
+
+.part2{
+    position: absolute;
+    top: 420px;
+}
+
+/* Second-Page */
+
+.about-heading{
+    padding-top: 150px;
+}
+
+.about{
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+/* Third-Page */
+
+#third-page{
+    margin: 0%;
+    background-color:#f7d9ee;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+.table-elements{
+    text-align: center;
+    padding: 50px 100px;
+}   
+
+/* Fourth-page */
+
+.activity-row{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.image-left{
+    color:#536162;
+    float: left;
+    margin-right: 20px;
+}
+
+.image-right{
+    color:#536162;
+    float: right;
+    margin-left: 20px;
+}
+
+/* contact */
+
+#contact{
+    background-color:#536162 ;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+.fa-2x{
+    color: #fff;
+    padding: 10px;
+}
+
+.fa-2x:hover{
+    color: #000;
+}
